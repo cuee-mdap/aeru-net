@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+scipy
+opencv-python
+scikit-image
+matplotlib
+einops
+tqdm
+pyyaml
+Pillow
+# optional: calculate_metric.py
+sewar
+# optional: FLOPs benchmark in model/areunet.py
+thop

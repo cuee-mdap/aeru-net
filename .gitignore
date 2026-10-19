@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.out
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# datasets, training outputs and results are not tracked
+codes/datasets/
+experiment/
