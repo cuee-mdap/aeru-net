@@ -79,7 +79,7 @@ parser.add_argument('--de_depth', type=int, default=1,
 # training specifications
 parser.add_argument('--reset', action='store_true', default=False,
                     help='reset the training')
-parser.add_argument('--epochs', type=int, default=6000,
+parser.add_argument('--epochs', type=int, default=2000,
                     help='number of epochs to train')
 parser.add_argument('--batch_size', type=int, default=16,
                     help='input batch size for training')
@@ -96,7 +96,7 @@ parser.add_argument('--lr', type=float, default=8e-4,
                     help='learning rate')
 parser.add_argument('--eta_min', type=float, default=1e-7,
                     help='learning rate')
-parser.add_argument('--T_max', type=float, default=1500,
+parser.add_argument('--T_max', type=float, default=2000,
                     help='learning rate')
 parser.add_argument('--lr_decay', type=int, default=400,
                     help='learning rate decay per N epochs')

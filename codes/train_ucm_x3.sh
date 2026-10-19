@@ -11,7 +11,7 @@ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True nohup $PY demo_train.py \
     --dataset UCMerced \
     --scale 3 \
     --patch_size 144 \
-    --batch_size 8 \
+    --batch_size 16 \
     --n_threads 4 \
     --save AERUNet_UCMerced_x3 \
     > train_ucm_x3.out 2>&1 &
