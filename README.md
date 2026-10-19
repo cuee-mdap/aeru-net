@@ -191,6 +191,14 @@ python demo_train.py --model areunet --dataset UCMerced --scale 2 --patch_size 9
 
 Run `python demo_train.py --help` for all options. Logs, plots and checkpoints are written to `experiment/<save>/`. The scripts call `python`; to use another interpreter, set `PYTHON`, for example `PYTHON=~/miniconda3/envs/aerunet/bin/python bash train_ucm_x3.sh`.
 
+## Pretrained model
+
+| File | Dataset | Scale | PSNR / SSIM (test set) |
+|---|---|:-:|:-:|
+| `pretrained/aerunet_ucmerced_x3.pt` | UCMerced | ×3 | 30.27 / 0.8449 |
+
+This checkpoint was retrained with this code after publication. It is evaluated on the 1,050-image UCMerced test set with `test_ucm_x3.sh`. The paper reports 30.30 / 0.8492 for this setting (Table 2).
+
 ## Testing
 
 ```bash
